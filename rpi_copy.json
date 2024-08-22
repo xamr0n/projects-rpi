@@ -1,0 +1,666 @@
+{
+  "name": "PIMYLIFE",
+  "icon": "logorpi.png",
+  "children": [
+    {
+      "name": "IoT",
+      "children": [
+            {
+              "name": "Running Zigbee2MQTT",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/12/Raspberry-Pi-Zigbee2MQTT-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-zigbee2mqtt/"
+            },
+            {
+              "name": "Running DiyHue ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/11/Raspberry-Pi-diyHue-Philips-Hue-Bridge-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-diyhue/"
+            },
+            {
+              "name": "How to Set Up Duck DNS ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/11/Raspberry-Pi-Duck-DNS-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-duck-dns/"
+            },
+            {
+              "name": "Installing the NTFY Push Notification Server ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/11/Raspberry-Pi-NTFY-Push-Notification-Server-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-ntfy/"
+            },
+            {
+              "name": "Running TeslaMate ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/05/Raspberry-Pi-TeslaMate-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-teslamate/"
+            },
+            {
+              "name": "Using the ChatGPT API ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/04/Raspberry-Pi-ChatGPT-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-chatgpt/"
+            },
+            {
+              "name": "Setting up DAKBoard ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2022/05/Raspberry-Pi-DAKboard-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-dakboard/"
+            },
+            {
+              "name": "Installing TensorFlow Lite ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2022/01/Raspberry-Pi-TensorFlow-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-tensorflow-lite/"
+            },
+            {
+              "name": "Setting up  Scanner Server using SANE",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/11/Raspberry-Pi-Scanner-Server-using-SANE-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-scanner-server/"
+            },
+            {
+              "name": "How to Farm Chia with ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/08/Raspberry-Pi-Chia-Blockchain-Farmer-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-chia/"
+            },
+            {
+              "name": "Running ZeroTier ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/08/Raspberry-Pi-ZeroTier-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-zerotier/"
+            },
+            {
+              "name": "Installing Zabbix on to ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/06/installing-Zabbix-on-the-Raspberry-Pi-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-zabbix/"
+            },
+            {
+              "name": "Self Hosting Bitwarden ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/03/Raspberry-Pi-Bitwarden-RS-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-bitwarden/"
+            },
+            {
+              "name": "Installing Portainer ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/03/Raspberry-Pi-Portainer-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-portainer/"
+            },
+            {
+              "name": "Setting up your Raspberry Pi as a Syslog Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/02/Raspberry-Pi-syslog-Server-thumbnail-nowm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-syslog-server/"
+            },
+            {
+              "name": "Setting up an SQLite Database",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/02/Raspberry-Pi-SQLite-Thumbnail-NOWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-sqlite/"
+            },
+            {
+              "name": "Installing the Mosquitto MQTT Server ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/01/Raspberry-Pi-MQTT-Mosquitto-Server-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-mosquitto-mqtt-server/"
+            },
+            {
+              "name": "Setting up an AirPrint Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/12/Raspberry-Pi-AirPrint-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-airprint/"
+            },
+            {
+              "name": "Wake Word Detection with Porcupine",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/07/Raspberry-Pi-Porcupine-Wake-Word-Detection-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-porcupine/"
+            },
+            {
+              "name": "Raspberry Pi Bluetooth Speakers",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/05/Raspberry-Pi-Bluetooth-Speaker-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-bluetooth-speakers/"
+            },
+            {
+              "name": "Installing Domoticz ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/04/Raspberry-Pi-Domoticz-Thumbnail-NoWm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberrypi-domoticz/"
+            },
+            {
+              "name": "Using Homebridge ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/04/Raspberry-Pi-Homebridge-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-homebridge/"
+            },
+            {
+              "name": "Installing the UniFi Controller ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/03/Raspberry-Pi-UniFi-Controller-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/rasberry-pi-unifi/"
+            },
+            {
+              "name": "Setting up Home Assistant ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/03/Raspberry-Pi-Home-Assistant-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/home-assistant-raspberry-pi/"
+            },
+            {
+              "name": "Installing Node-Red",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/03/Raspberry-Pi-Node-RED-Thumbnail-NO-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/node-red-raspberry-pi/"
+            },
+            {
+              "name": "Using IFTTT with the Raspberry Pi",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2020/02/Raspberry-Pi-IFTTT-Thumbnail-No-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/using-ifttt-with-the-raspberry-pi/"
+            },
+            {
+              "name": "Installing Docker ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/12/Installing-Docker-on-the-Raspberry-Pi-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-docker/"
+            },
+            {
+              "name": "Setting up Grafana ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/11/Raspberry-Pi-Grafana-Thumbnail-No-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-grafana/"
+            },
+            {
+              "name": "How to Setup  Eddystone Beacon",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/03/Eddystone-Beacon-Thumbnail-no-watermark-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-eddystone-beacon/"
+            },
+            {
+              "name": "How to Setup  iBeacon",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/03/Raspberry-Pi-iBeacon-Thumb-No-Watermark-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-ibeacon/"
+            },
+            {
+              "name": "Build your own Raspberry Pi Google Assistant",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2018/03/Raspberry-Pi-Google-Assitant-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-google-assistant/"
+            },
+            {
+              "name": "Raspberry Pi Alexa: Build your own Amazon Echo",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/07/alexa-v3-mini-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-alexa/"
+            }
+          ]
+        },
+    {
+      "name": "Servers",
+      "children": [
+            {
+              "name": "Running a Palworld Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2024/01/Raspberry-Pi-Palworld-Server-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-palworld-server/"
+            },
+            {
+              "name": "How to Install Proxmox ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2024/01/Raspberry-Pi-Proxmox-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-proxmox/"
+            },
+            {
+              "name": "How to Install Adminer ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/11/Raspberry-Pi-Adminer-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-adminer/"
+            },
+            {
+              "name": "Installing and Running Dockge",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2023/11/Raspberry-Pi-Dockge-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-dockge/"
+            },
+            {
+              "name": "Running Redis ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2022/09/Raspberry-Pi-Redis-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-redis/"
+            },
+            {
+              "name": "Setting up a PostgreSQL Database",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/03/Raspberry-Pi-PostgreSQL-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-postgresql/"
+            },
+            {
+              "name": "Creating your own Raspberry Pi TeamSpeak Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/03/Raspberry-Pi-TeamSpeak-Server-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-teamspeak/"
+            },
+            {
+              "name": "Installing Django",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2021/01/Raspberry-Pi-Django-Thumbnail-NoWM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-django/"
+            },
+            {
+              "name": "Installing InfluxDB ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/11/Raspberry-Pi-InfluxDB-Thumbnail-No-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-influxdb/"
+            },
+            {
+              "name": "How to Install Gogs ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/07/Raspberry-Pi-Gogs-Thumbnail-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-gogs/"
+            },
+            {
+              "name": "How to Setup WordPress ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/06/Raspberry-Pi-Wordpress-Thumbnail-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-wordpress/"
+            },
+            {
+              "name": "How to Setup  Apache Web Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/06/Raspberry-Pi-Apache-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-apache/"
+            },
+            {
+              "name": "How to Install phpMyAdmin ",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/07/Raspberry-Pi-PHPMyAdmin-v2-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-phpmyadmin/"
+            },
+            {
+              "name": "Setup  MYSQL Database",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/06/Raspberry-Pi-MySQL-Thumbnail-No-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-mysql/"
+            },
+            {
+              "name": "How to Setup  Samba Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/06/Raspberry-Pi-Sambs-Cifs-Thumbnail-no-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-samba/"
+            },
+            {
+              "name": "How to Setup  AFP Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/05/Raspberry-Pi-AFP-Thumbnail-No-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-afp/"
+            },
+            {
+              "name": "How to Setup Raspberry Pi NFS Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/06/Raspberry-Pi-NFS-Thumbnail-No-WM-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-nfs/"
+            },
+            {
+              "name": "How to Setup Raspberry Pi TeamViewer",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2019/04/Raspberry-Pi-TeamViewer-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-teamviewer/"
+            },
+            {
+              "name": "Raspberry Pi Webmin",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2018/11/Raspberry-Pi-Webmin-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-webmin/"
+            },
+            {
+              "name": "How to setup Raspberry Pi Lighttpd",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/12/Raspberry-Pi-Lighttpd-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-lighttpd/"
+            },
+            {
+              "name": "Raspberry Pi IRC Server: Setup your own Chat Network",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/09/Raspberry-Pi-IRC-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-irc-server/"
+            },
+            {
+              "name": "How to Setup  Caddy Web Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/08/Raspberry-Pi-Caddy-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-caddy-web-server/"
+            },
+            {
+              "name": "Build your own Raspberry Pi NGINX Web Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/08/nginx-v1-small-web-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-nginx/"
+            },
+            {
+              "name": "Raspberry Pi Minecraft Bedrock Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/07/Raspberry-Pi-Minecraft-PE-Server-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-minecraft-pe-server/"
+            },
+            {
+              "name": "How to Setup  Nextcloud Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/06/Raspberry-Pi-Nextcloud-Server-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-nextcloud-server/"
+            },
+            {
+              "name": "Raspberry Pi GITLab Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2017/02/Raspberry-Pi-Gitlab-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-gitlab/"
+            },
+            {
+              "name": "Build your own Raspberry Pi Git Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2015/11/Raspberry-PI-Git-server-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-git-server/"
+            },
+            {
+              "name": "Raspberry Pi ownCloud: Your Personal Cloud Storage",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2015/08/Raspberry-Pi-Owncloud-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-owncloud/"
+            },
+            {
+              "name": "Raspberry Pi Minecraft Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2015/08/Raspberry-Pi-Minecraft-Server-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-minecraft-server/"
+            },
+            {
+              "name": "Build your own Raspberry Pi Mumble Server",
+              "icon": "https://pimylifeup.com/wp-content/uploads/2015/02/Raspberry-Pi-Mumble-Server-no-wm-525x310.jpg",
+              "url": "https://pimylifeup.com/raspberry-pi-mumble-server/"
+            }
+          ]
+        },
+        {
+          "name": "Network",
+          "children": [
+                {
+                  "name": "Using the PiAlert Network Security Scanner",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2024/01/Raspberry-Pi-PiAlert-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-pialert/"
+                },
+                {
+                  "name": "Setting up the NGINX Proxy Manager ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/10/Raspberry-Pi-NGINX-Reverse-Proxy-Manager-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-nginx-proxy-manager/"
+                },
+                {
+                  "name": "Using apcupsd ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/09/Raspberry-Pi-APCUPSD-Thumbnail-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-apcupsd/"
+                },
+                {
+                  "name": "Running Plausible Analytics ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/08/Raspberry-Pi-Plausible-Analytics-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-plausible-analytics/"
+                },
+                {
+                  "name": "Running your Raspberry Pi as a Wake-on-LAN Server",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/08/Raspberry-Pi-Wake-on-LAN-Server-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-wake-on-lan-server/"
+                },
+                {
+                  "name": "Monitoring a UPS with NUT ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/08/Raspberry-Pi-UPS-Nut-Server-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-nut-server/"
+                },
+                {
+                  "name": "Raspberry Pi DNS-Over-HTTPS (DoH) for Pi-Hole",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/06/Raspberry-Pi-DNS-Over-HTTPS-Pi-Hole-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/rapberry-pi-dns-over-https/"
+                },
+                {
+                  "name": "Installing Unbound for Pi-Hole ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/05/Raspberry-Pi-Unbound-for-Pi-Hole-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-unbound/"
+                },
+                {
+                  "name": "Using NoMachine ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/02/Raspberry-Pi-NoMachine-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-nomachine/"
+                },
+                {
+                  "name": "Running SerpBear ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2023/02/Raspberry-Pi-SerpBear-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-serpbear/"
+                },
+                {
+                  "name": "Setting up a Cloudflare Tunnel ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2022/10/Raspberry-Pi-Cloudflare-Tunnel-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-cloudflare-tunnel/"
+                },
+                {
+                  "name": "Installing Tailscale ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2022/10/Raspberry-Pi-Tailscale-Thumbnail-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-tailscale/"
+                },
+                {
+                  "name": "Installing Network Manager on Raspberry Pi OS",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2022/10/Raspberry-Pi-Network-Manager-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-network-manager/"
+                },
+                {
+                  "name": "Installing and Running Wireshark ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2022/09/Raspberry-Pi-Wireshark-Thumbnail-nOWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-wireshark/"
+                },
+                {
+                  "name": "Running Changedetection.io ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2022/09/Raspberry-Pi-Changedetection.io-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-changedetection/"
+                },
+                {
+                  "name": "Setting up Uptime Kuma ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2022/09/Raspberry-Pi-Uptime-Kuma-NoWM-Thumbnail-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-uptime-kuma/"
+                },
+                {
+                  "name": "Synchronizing Files with Syncthing",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2021/01/Raspberry-Pi-Syncthing-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-syncthing/"
+                },
+                {
+                  "name": "Connecting to an NFS Share ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/12/Raspberry-Pi-NFS-Client-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-nfs-client/"
+                },
+                {
+                  "name": "Block Ads using AdGuard Home",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/12/Raspberry-Pi-AdGuard-Thumbnail-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-adguard-home/"
+                },
+                {
+                  "name": "Using the UFW Firewall ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/08/Raspberry-Pi-UFW-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-ufw/"
+                },
+                {
+                  "name": "Connecting to IPVanish from your Raspberry Pi",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/08/Raspberry-Pi-ipVanish-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-ipvanish/"
+                },
+                {
+                  "name": "How to Setup Surfshark ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/07/Raspberry-Pi-Surfshark-VPN-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-surfshark/"
+                },
+                {
+                  "name": "Setting up a WireGuard VPN ",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/07/Raspberry-Pi-WireGuard-VPN-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-wireguard/"
+                },
+                {
+                  "name": "Raspberry Pi Proxy Server using Privoxy",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2020/04/Raspberry-Pi-Proxy-Server-using-Privoxy-Thumbnail-NoWM-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-proxy-using-privoxy/"
+                },
+                {
+                  "name": "How to Setup  DNS Server",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2019/08/Raspberry-Pi-DNS-Server-Thumbnail-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-dns-server/"
+                },
+                {
+                  "name": "Raspberry Pi Pi-Hole: A Network Wide Ad-blocker",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2018/05/Raspberry-Pi-Pi-Hole-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-pi-hole/"
+                },
+                {
+                  "name": "Setting up  Wi-Fi Extender",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/08/Raspberry-Pi-WiFi-Extender-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-wifi-extender/"
+                },
+                {
+                  "name": "Setting up  Captive Portal",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/08/Raspberry-Pi-Captive-Portal-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-captive-portal/"
+                },
+                {
+                  "name": "How to setup  TOR Access Point",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/06/Raspberry-Pi-TOR-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-tor-access-point/"
+                },
+                {
+                  "name": "Running  Wi-Fi Bridge",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/05/Raspberry-Pi-WiFi-Bridge-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-wifi-bridge/"
+                },
+                {
+                  "name": "Raspberry Pi VPN Access Point: Setup a Basic VPN Router",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/04/Raspberry-Pi-VPN-Access-Point-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-vpn-access-point/"
+                },
+                {
+                  "name": "Raspberry Pi Wireless Access Point",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/04/WiFi-Access-Point-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-wireless-access-point/"
+                },
+                {
+                  "name": "Build Your Own Raspberry Pi VPN Server",
+                  "icon": "https://pimylifeup.com/wp-content/uploads/2017/03/Raspberry-Pi-VPN-Server-no-wm-525x310.jpg",
+                  "url": "https://pimylifeup.com/raspberry-pi-vpn-server/"
+                }
+              ]
+            },
+                {
+                  "name": "Enthusiasts",
+                  "children": [
+                        {
+                          "name": "Keeping your Raspberry Pi Running with Watchdog",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2024/01/Raspberry-Pi-Watchdog-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-watchdog/"
+                        },
+                        {
+                          "name": "Running Wallos ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2023/11/Raspberry-Pi-Wallos-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-wallos/"
+                        },
+                        {
+                          "name": "Setting up Firefly 3",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2023/08/Raspberry-Pi-Firefly-3-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-firefly3/"
+                        },
+                        {
+                          "name": "Installing PyTorch ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2023/05/Raspberry-Pi-PyTorch-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-pytorch/"
+                        },
+                        {
+                          "name": "How to Install Auto-GPT ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2023/04/Raspberry-Pi-Auto-GPT-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-auto-gpt/"
+                        },
+                        {
+                          "name": "How to Monitor the Raspberry Pi\u2019s Temperature",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2023/04/Raspberry-Pi-Monitor-Temperature-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-monitor-temperature/"
+                        },
+                        {
+                          "name": "Running Netdata ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2022/10/Raspberry-Pi-Netdata-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-netdata/"
+                        },
+                        {
+                          "name": "How to Install PowerShell ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2022/09/Raspberry-Pi-PowerShell-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-powershell/"
+                        },
+                        {
+                          "name": "Setting up FreshRSS ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2022/09/Raspberry-Pi-FreshRSS-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-freshrss/"
+                        },
+                        {
+                          "name": "Monitor a Website using Python",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2022/04/Raspberry-Pi-Monitor-Website-Script-Thumbnail-NoWM-525x310.png",
+                          "url": "https://pimylifeup.com/raspberry-pi-monitor-website/"
+                        },
+                        {
+                          "name": "Installing NodeJS ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2022/03/Raspberry-Pi-NodeJS-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-nodejs/"
+                        },
+                        {
+                          "name": "Installing the Mono Framework ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2021/11/Raspberry-Pi-Mono-Framework-Install-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-mono-framework/"
+                        },
+                        {
+                          "name": "Installing Joomla ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2021/09/Raspberry-Pi-Joomla-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-joomla/"
+                        },
+                        {
+                          "name": "Installing Rclone ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2021/01/Raspberry-Pi-Rclone-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-rclone/"
+                        },
+                        {
+                          "name": "Running qBittorrent ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/12/Raspberry-Pi-qBittorrent-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-qbittorrent/"
+                        },
+                        {
+                          "name": "Using the Go Compiler ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/06/Raspberry-Pi-Golang-Compiler-Thumbnail-NOWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-golang/"
+                        },
+                        {
+                          "name": "Getting Started with Scratch ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/05/Raspberry-Pi-Scratch-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-scratch/"
+                        },
+                        {
+                          "name": "Using Dropbox ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/05/Raspberry-Pi-Dropbox-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-dropbox/"
+                        },
+                        {
+                          "name": "Installing LibreOffice ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/04/Raspberry-Pi-LibreOffice-Thumbnail-NoWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberrypi-libreoffice/"
+                        },
+                        {
+                          "name": "Antivirususing ClamAV",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/04/Raspberry-Pi-AntiVirus-Thumbnail-noWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-clamav/"
+                        },
+                        {
+                          "name": "Installing Jenkins",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/02/Raspberry-Pi-Jenkins-Thumbnail-No-WM-525x310.jpg",
+                          "url": "https://pimylifeup.com/jenkins-raspberry-pi/"
+                        },
+                        {
+                          "name": "Minecraft ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/02/Raspberry-Pi-Minecraft-Thumbnail-NO-WM-525x310.jpg",
+                          "url": "https://pimylifeup.com/minecraft-raspberry-pi/"
+                        },
+                        {
+                          "name": "Installing MongoDB ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/02/Raspberry-Pi-MongoDB-Thumbnail-No-WM-525x310.jpg",
+                          "url": "https://pimylifeup.com/mongodb-raspberry-pi/"
+                        },
+                        {
+                          "name": "Compiling and Running gDrive",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/02/gDrive-Thumbnail-No-WM-525x310.jpg",
+                          "url": "https://pimylifeup.com/compiling-and-running-gdrive/"
+                        },
+                        {
+                          "name": "Installing Mathematica ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2020/01/Raspberry-Pi-Mathematica-Thumbnail-NOWM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-mathematica/"
+                        },
+                        {
+                          "name": "Installing Deluge ",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2019/07/Raspberry-Pi-Deluge-Thumbnail-No-WM-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-deluge/"
+                        },
+                        {
+                          "name": "Raspberry Pi Flightradar24: Track Nearby Aircraft",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2018/09/Raspberry-Pi-Flightradar24-no-wm-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-flightradar24/"
+                        },
+                        {
+                          "name": "How to Setup Raspberry Pi Gitea",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2018/06/Raspberry-Pi-GITea-no-wm-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-gitea/"
+                        },
+                        {
+                          "name": "Setting up Raspberry Pi OctoPrint",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2018/05/Raspberry-Pi-Octoprint-no-wm-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-octoprint/"
+                        },
+                        {
+                          "name": "Raspberry Pi Email Notifier using the Sense HAT",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2017/05/Raspberry-Pi-Sensehat-Email-Notifier-no-wm-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-email-notifier/"
+                        },
+                        {
+                          "name": "Raspberry Pi BOINC Tutorial",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2016/06/Raspberry-Pi-BOINC-watermarkless-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-boinc/"
+                        },
+                        {
+                          "name": "A Simple Raspberry Pi Photo Frame",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2015/12/Raspberry-Pi-Photo-Frame-no-wm-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-photo-frame/"
+                        },
+                        {
+                          "name": "Raspberry Pi Flight Tracker using FlightAware",
+                          "icon": "https://pimylifeup.com/wp-content/uploads/2015/05/Raspberry-Pi-ADS-B-Receiver-no-wm-525x310.jpg",
+                          "url": "https://pimylifeup.com/raspberry-pi-ads-b-receiver/"
+                        }
+                      ]
+                    }
+      ]
+    }

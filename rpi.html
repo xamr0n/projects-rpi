@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raspberry Pi Projects</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <style>
+    body {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: white;
+      text-shadow:  2px 2px 4px #ccc;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+    .node-image {
+      border-radius: 50%;
+      transition: transform 0.2s ease;
+      filter: drop-shadow (2px 2px 4px #BD1143);
+    }
+  </style>
+</head>
+<body>
+  <script>
+    // Load the JSON data
+    d3.json('rpi_copy.json').then(data => {
+      const width = 2528;
+      const height = width;
+      const cx = width * 0.5;
+      const cy = height * 0.5;
+
+      const tree = d3.cluster()
+          .size([2 * Math.PI, Math.min(width, height) / 5 - 10])
+          .separation((a, b) => (a.parent == b.parent ? 1 : 1) / a.depth);
+
+      const root = tree(d3.hierarchy(data)
+          .sort((a, b) => d3.ascending(a.data.name, b.data.name)));
+
+      // Calculate the radius based on the maximum depth of the parent nodes
+      const maxParentDepth = d3.max(root.descendants(), d => d.children ? d.depth : d.parent.depth);
+      const radius = Math.min(width, height) / 4 - 10;
+      const circleRadius = (radius / (maxParentDepth + 1)) * maxParentDepth;
+
+      const svg = d3.create("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .attr("viewBox", [-cx, -cy, width, height])
+          .attr("style", "width: 100%; height: auto; font: 22px Impact;");
+
+      // Define gradient
+      const defs = svg.append("defs");
+
+      const gradient = defs.append("radialGradient")
+        .attr("id", "gradient")
+        .attr("cx", "50%")
+        .attr("cy", "50%")
+        .attr("r", "50%")
+        .attr("fx", "50%")
+        .attr("fy", "50%");
+
+      gradient.append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", "#BD1143");
+
+      gradient.append("stop")
+        .attr("offset", "50%")
+        .attr("stop-color", "#BD1143");
+
+      svg.append("g")
+          .attr("fill", "url(#gradient)")
+          .attr("stroke", "#BD1143")
+          .attr("stroke-opacity", .1)
+          .attr("stroke-width", .1)
+        .selectAll("path")
+        .data(root.links())
+        .join("path")
+          .attr("d", d3.linkRadial()
+              .angle(d => d.x)
+              .radius(d => d.y));
+
+      // Define a clip-path for the background circle image
+      defs.append("clipPath")
+        .attr("id", "clip-background-circle")
+        .append("circle")
+        .attr("cx", 0)
+        .attr("cy", 0)
+        .attr("r", circleRadius);
+
+      // Append an image element for the background circle with circular clip-path
+      const circleImage = svg.append("image")
+        .attr("x", -circleRadius)
+        .attr("y", -circleRadius)
+        .attr("width", circleRadius * 2)
+        .attr("height", circleRadius * 2)
+        .attr("style", "display: block;")
+        .attr("clip-path", "url(#clip-background-circle)")
+        .attr("xlink:href", "logorpi.png") // Replace with the actual image URL of main parent
+        .attr("preserveAspectRatio", "xMidYMid slice");
+
+      // Define a clip-path for circular images
+      defs.append("clipPath")
+        .attr("id", "clip-circle")
+        .append("circle")
+        .attr("cx", 0)
+        .attr("cy", 0)
+        .attr("r", 10);
+
+      const nodeGroup = svg.append("g")
+        .selectAll("image")
+        .data(root.descendants())
+        .join("image")
+          .attr("class", "node-image")
+          .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+          .attr("xlink:href", d => d.data.icon || 'rpilogo.png')
+          .attr("width", 40)
+          .attr("height", 40)
+          .attr("x", -20)  // Center the icon
+          .attr("y", -20)  // Center the icon
+          .attr("clip-path", "url(#clip-circle)");
+
+      nodeGroup.on("mouseover", function(event, d) {
+        if (d.data.icon) {
+          d3.select(this)
+            .attr("clip-path", "url(#clip-circle)"); // Ensure clip-path is applied
+          circleImage.attr("xlink:href", d.data.icon)
+            .attr("style", "display: block;");
+          
+          svg.selectAll("path")
+            .attr("opacity", .1);
+          nodeGroup.attr("opacity", (nd) => d.ancestors().includes(nd) ? 0 : 1);
+        }
+      }).on("mouseout", function(event) {
+        d3.select(this)
+          .attr("clip-path", "url(#clip-circle)"); // Ensure clip-path is applied
+        circleImage.attr("style", "display: block;")
+          .attr("xlink:href", "logorpi.png"); // Reset to main parent icon
+        
+        svg.selectAll("path")
+          .attr("opacity", .1);
+        nodeGroup.attr("opacity", 1);
+      });
+
+      svg.append("g")
+          .attr("stroke-linejoin", "round")
+          .attr("stroke-width", 0.1)
+        .selectAll("text")
+        .data(root.descendants())
+        .join("text")
+          .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0) rotate(${d.x >= Math.PI ? 180 : 0})`)
+          .attr("dy", "0.31em")
+          .attr("x", d => d.x < Math.PI === !d.children ? 30 : -30)
+          .attr("text-anchor", d => d.x < Math.PI === !d.children ? "start" : "end")
+          .attr("paint-order", "stroke")
+          .attr("stroke", "#BD1143")
+          .attr("fill", "#BD1143")
+          .each(function(d) {
+            let parentWithUrl = d;
+            while (parentWithUrl.depth > 1 && !parentWithUrl.data.url) {
+              parentWithUrl = parentWithUrl.parent;
+            }
+            if (parentWithUrl.data.url) {
+              d3.select(this)
+                .append("a")
+                .attr("xlink:href", parentWithUrl.data.url)
+                .attr("target", "_blank")
+                .text(d.data.name);
+            } else {
+              d3.select(this)
+                .text(d.data.name);
+            }
+          })
+          .on("mouseover", function(event, d) {
+            d3.select(this).attr("font-size", "36px").attr("font-weight","500px");
+          })
+          .on("mouseout", function() {
+            d3.select(this).attr("font-size", null).attr("font-weight", null);
+          });
+
+      document.body.appendChild(svg.node());
+    });
+  </script>
+</body>
+</html>
